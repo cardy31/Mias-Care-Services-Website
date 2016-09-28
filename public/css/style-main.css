@@ -1,0 +1,105 @@
+/* Home */
+#main {
+    background-color: #55C820;
+    color: white;
+}
+
+.logo {
+    width: 20vw;
+    max-width: 250px;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+}
+
+.vertical-center {
+    min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 90vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+.second {
+	background-color: white; /* Main Green */
+	color: #24C1E5;
+}
+
+@media (max-width: 750px) {
+    .col-lg-10.col-lg-offset-1 h2{
+        font-size: 14pt;
+    }
+
+    #email {
+        font-size: 15pt;
+    }
+}
+
+/* Services */
+#services {
+	background-color: #55C820;
+	color: white;
+}
+
+/* Footer */
+.footer-main {
+	background-color: #24C1E5;
+	color: white;
+    min-height: 25vh;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+#foot-top {
+    padding-top: 3px;
+}
+
+#email {
+    color: #126172;
+}
+
+.footer-bottom {
+	color: white;
+	background-color: #126172;
+    min-height: 5vh;
+    horizontal-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Contact Page */
+.contact {
+	min-width: 100%;
+	min-height: 75%;
+    min-height: 77vh;
+    background-color: #55C820;
+    color: white;
+}
+
+.contact-list {
+    list-style: none;
+}
+
+/* Activities List */
+#activities h3{
+    color: #126172;
+}
+
+#activities a {
+    color: #126172;
+}
+
+#active li{
+    font-size: 16pt;
+    list-style: none;
+}
+
+@media (min-width: 900px) {
+    #active {
+        padding-left: 10%;
+    }
+}
+
+.contact-mail {
+    font-size: 14pt;
+}
